@@ -55,7 +55,7 @@ class MemberRepositoryV1Test {
                 .isInstanceOf(NoSuchElementException.class);
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
